@@ -1,0 +1,10 @@
+server:
+  port: 8083
+
+spring.cloud.function:
+  definition: squareNumbersConsumer
+
+spring.cloud.stream:
+  bindings:
+    squareNumbersConsumer-in-0:
+      destination: squareNumbers

@@ -32,6 +32,9 @@
         <module>vinsguru-order-service</module>
         <module>vinsguru-payment-service</module>
         <module>vinsguru-inventory-service</module>
+        <module>kafka-number-producer</module>
+        <module>kafka-number-processor</module>
+        <module>kafka-number-consumer</module>
     </modules>
 
     <dependencyManagement>

@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring.cloud.function:
+  definition: evenNumberSquareProcessor
+
+spring.cloud.stream:
+  bindings:
+    evenNumberSquareProcessor-in-0:
+      destination: numbers
+    evenNumberSquareProcessor-out-0:
+      destination: squareNumbers
